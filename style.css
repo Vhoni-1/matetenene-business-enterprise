@@ -1587,3 +1587,54 @@ footer {
     height: auto !important;
     max-width: 120px;
 }
+.hero-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+.hero-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: white;
+    color: #0b2a5b;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.hero-button:hover {
+    transform: scale(1.05);
+}
+.hero-button,
+.quote-button {
+    display: inline-block;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.hero-button:hover,
+.quote-button:hover {
+    transform: scale(1.05);
+}
+.footer-quote {
+    display: inline-block;
+    padding: 10px 22px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    background: white;
+    color: #0b2a5b;
+    margin-bottom: 15px;
+}
+
+.footer-quote:hover {
+    transform: scale(1.05);
+}
